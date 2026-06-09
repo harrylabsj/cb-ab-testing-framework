@@ -1,8 +1,6 @@
 ---
-slug: cb-ab-testing-framework
-version: "1.0.0"
-type: descriptive
-language: en
+name: cb-ab-testing-framework
+description: Structured framework for culturally-aware A/B experiment design in overseas markets
 ---
 
 # Overseas A/B Testing Design Framework
