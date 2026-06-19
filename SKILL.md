@@ -1,6 +1,8 @@
 ---
 name: cb-ab-testing-framework
 description: Structured framework for culturally-aware A/B experiment design in overseas markets
+version: v1.0.0
+tags: ab-testing, international-experiments, conversion-optimization, cultural-testing, experiment-design
 ---
 
 # Overseas A/B Testing Design Framework
@@ -52,6 +54,18 @@ The framework is designed for growth teams, product managers, UX researchers, ec
 - "Our landing page has a different conversion rate in Germany versus Brazil even though we have not changed anything. Help us design an experiment to understand why."
 - "We want to test whether translating our testimonials into local language increases trust in Southeast Asia. How should we design this test?"
 - "We have a list of 20 localization changes we want to test. How do we prioritize which to run first?"
+
+
+## Usage Scenarios
+
+1. **User input:** "Design an A/B test to see if localized hero images improve conversion in our Brazilian landing page."
+→ **Expected output:** Experiment design doc with hypothesis, sample-size calculation (needs 12K visitors/arm), 14-day run window, cultural seasonality controls (Carnival blackout), success metric (CVR + statistical significance threshold p<0.05), and variant spec.
+2. **User input:** "Our home-market test showed red CTAs win. Should we apply that globally?"
+→ **Expected output:** Cultural color-analysis brief — red meaning varies (positive in China, warning in Germany, sale in US) — with recommendation to retest per market and a global-testing prioritization matrix.
+3. **User input:** "Build a quarterly experiment roadmap for optimizing our checkout flow in 4 APAC markets."
+→ **Expected output:** Backlog of 12 experiments ranked by expected revenue impact, with market-specific hypotheses (payment-method prominence for Indonesia, trust-badge placement for Philippines), timing calendar, and learning-documentation template.
+4. **User input:** "我的淘宝店卖的猫粮详情页转化率只有2%，想换一个详情页布局测一下哪个效果好，怎么设计A/B测试？"
+→ **Expected output:** 提供淘宝详情页A/B测试方案：1）变量选择——只测试详情页信息排列顺序（当前：品牌故事→产品参数→买家秀→促销。测试：买家秀→促销→产品参数→品牌故事）；2）流量分配——使用万相台/直通车等工具做人群test，建议至少跑7天收集500+访客数据；3）关键指标——收藏加购率、停留时长、转化率；4）季节性控制——避开大促前后流量波动期（如618/双11前后各两周数据不可比）；5）结论——根据复购数据和评论情感分析综合判断哪个版本更优。
 
 ## Safety and Limitations
 
